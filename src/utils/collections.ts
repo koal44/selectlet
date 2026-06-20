@@ -1,5 +1,5 @@
-import { LOOKUP_COPY, type LookupMode } from '../constants';
-import type { IndexedNodeList } from '../selectlet';
+import { LOOKUP_COPY, type LookupMode } from '../selector/constants';
+import type { IndexedNodeList } from '../selector/selectlet';
 
 export type ElementCollection = {
   length: number;

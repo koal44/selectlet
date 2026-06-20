@@ -1,5 +1,5 @@
-import type { Snapshot as _Snapshot } from './snapshot';
-import type { createSelectlet as _createSelectlet, Selectlet as _Selectlet, QueryContext as _QueryContext } from './selectlet';
+import type { Snapshot as _Snapshot } from './selector/snapshot';
+import type { createSelectlet as _createSelectlet, Selectlet as _Selectlet, QueryContext as _QueryContext } from './selector/selectlet';
 import type { createStylelet as _createStylelet, Stylelet as _Stylelet } from './style/stylelet';
 
 export {};

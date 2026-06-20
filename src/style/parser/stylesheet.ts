@@ -1,10 +1,10 @@
-import { Cursor } from '../../parser/cursor';
-import { consumeIdent, consumeTrivia } from '../../parser/lex';
+import { Cursor } from '../../selector/parser/cursor';
+import { consumeIdent, consumeTrivia } from '../../selector/parser/lex';
 import {
   parseSelectorPrelude,
   type ParseContext as SelectorParseContext,
-} from '../../parser/parser';
-import type { CustomPseudoPredicate } from '../../selectlet';
+} from '../../selector/parser/parser';
+import type { CustomPseudoPredicate } from '../../selector/selectlet';
 import type { ColorSource, ColorValue } from './color';
 import { ColorNameByText, ColorSourceKind, namedColorRgba } from './color';
 import type { ColorDeclaration, RawDeclaration } from './types';
