@@ -3,7 +3,7 @@ import {
   ColorName, ColorNameByText, ColorSourceKind, namedColorRgba,
   packRgba, resolveColorSourceToRgba, resolveColorToRgba,
   type ColorValue,
-} from '../../../src/style/parser/color';
+} from '../../../src/style/values/color';
 
 describe('color values', () => {
   it('looks up named colors by text', () => {
