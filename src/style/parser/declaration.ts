@@ -1,5 +1,4 @@
-import type { Cursor } from '../../selector/parser/cursor';
-import { consumeIdent, consumeTrivia } from '../../selector/parser/lex';
+import { consumeIdent, consumeTrivia, type Cursor } from '../parser/lex';
 import {
   BlockItemKind, PropertyId, propertyIdFor,
   type DeclarationAst, type InvalidBlockItemAst,
