@@ -1,5 +1,5 @@
+import { Cursor } from '../../selector/parser/cursor';
 import { asciiLower } from '../../utils/css';
-import { Cursor } from './lex';
 
 export enum TokenKind {
   Ident = 1,
